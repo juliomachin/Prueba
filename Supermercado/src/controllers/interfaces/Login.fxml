@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane   xmlns="http://javafx.com/javafx/8.0.111"  xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.Login_Controller"  prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: grey;" >
+
+	 <children>
+      <AnchorPane prefHeight="150.0" prefWidth="600.0" style="-fx-background-color: #214362;" />
+      <AnchorPane layoutX="112.0" layoutY="61.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="278.0" prefWidth="377.0" style="-fx-background-color: white; -fx-border-width: 3; -fx-border-color: #214362; -fx-border-radius: 10; -fx-background-radius: 15;">
+         <children>
+            <JFXTextField fx:id="user" focusColor="#3c38eb" labelFloat="true" layoutX="55.0" layoutY="51.0" prefHeight="42.0" prefWidth="291.0" promptText="Username" unFocusColor="#2193f3" />
+            <JFXPasswordField fx:id="pass" focusColor="#3c38eb" labelFloat="true" layoutX="58.0" layoutY="128.0" prefHeight="42.0" prefWidth="291.0" promptText="Password" unFocusColor="#2193f3" />
+            <JFXButton fx:id="log" layoutX="58.0" layoutY="211.0" onAction="#logIn" prefHeight="42.0" prefWidth="127.0" style="-fx-background-color: #2193F3;" text="Login" />
+            <FontAwesomeIconView glyphName="USER" layoutX="28.0" layoutY="80.0" size="20" />
+            <FontAwesomeIconView glyphName="KEY" layoutX="29.0" layoutY="155.0" size="20" />
+         </children>
+      </AnchorPane>
+   </children>
+
+</AnchorPane>
+
+
